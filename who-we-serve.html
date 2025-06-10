@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Who We Serve | Ludo Consultants</title>
+  <meta name="description" content="Discover the industries and sectors Ludo Consultants supports — from private equity and healthcare to IT, procurement, and global development." />
+  <meta name="keywords" content="business consulting clients, who we serve, IT consulting, healthcare consulting, startup support, private equity consulting, Ludo Consultants" />
+  <meta name="author" content="Ludo Consultants" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Who We Serve | Ludo Consultants" />
+  <meta property="og:description" content="We work with startups, enterprises, nonprofits, and governments to drive innovation and business success." />
+  <meta property="og:image" content="https://ludoconsultants.com/assets/High-Resolution-Logo-White-on-Transparent-Background.png" />
+  <meta property="og:url" content="https://ludoconsultants.com/who-we-serve.html" />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" type="image/png" href="assets/Website-Favicon-White.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+  <nav class="nav-container">
+    <div class="logo">
+      <a href="index.html">
+        <img src="assets/High-Resolution-Logo-White-on-Transparent-Background.png" alt="Ludo Consultants Logo" />
+      </a>
+    </div>
+    <div class="menu-toggle" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="topnav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li>
+          <a href="services.html" class="dropbtn">Services <i class="fas fa-caret-down"></i></a>
+          <div class="dropdown-content">
+            <a href="business-startup.html">Business Startup</a>
+            <a href="small-business.html">Small Business</a>
+            <a href="marketing-services.html">Marketing Services</a>
+            <a href="digital-business.html">Digital Business</a>
+            <a href="international-business.html">International Business</a>
+            <a href="us-market.html">US Market</a>
+          </div>
+        </li>
+      <li><a href="solutions.html">Solutions</a></li>
+      <li><a href="global-opportunities.html">Global Opportunities</a></li>
+      <li><a href="who-we-serve.html">Who We Serve</a></li>
+      <li><a href="our-mission.html">Our Mission</a></li>
+      <li><a href="what-we-do.html">What We Do</a></li>
+      <li><a href="faqs.html">FAQs</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="get-started.html" class="btn-primary">Get Started</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-overlay">
+      <div class="hero-content" data-aos="fade-up">
+        <h1>Who We Serve</h1>
+        <p>Empowering leaders across industries to create impact, scale and innovate.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Three Cards Section -->
+  <section class="cards-row" data-aos="fade-up">
+    <div class="card blue">
+      <div class="card-icon">✈️</div>
+      <h3>INSPIRATION</h3>
+      <ul>
+        <li>Private Equity Firms</li>
+        <li>Asset Management Firms</li>
+        <li>Family Offices</li>
+        <li>Non-Profit Organizations</li>
+      </ul>
+      <a href="#">Learn More</a>
+    </div>
+    <div class="card yellow">
+      <div class="card-icon">🛠️</div>
+      <h3>MANAGEMENT</h3>
+      <ul>
+        <li>Healthcare Organizations</li>
+        <li>Healthcare Providers / Practitioners</li>
+        <li>Real Estate Developers</li>
+        <li>Oil and Gas</li>
+      </ul>
+      <a href="#">Learn More</a>
+    </div>
+    <div class="card red">
+      <div class="card-icon">📈</div>
+      <h3>INNOVATION</h3>
+      <ul>
+        <li>Information Technology</li>
+        <li>Startups</li>
+        <li>Procurement</li>
+        <li>Supply Chain</li>
+      </ul>
+      <a href="#">Learn More</a>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner" data-aos="fade-up">
+    <h2>Curious if We Serve Your Sector?</h2>
+    <p>Let’s discuss how we can support your growth.</p>
+    <a href="contact.html" class="btn-primary">Contact Us</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>© 2025 Ludoconsultants. Proudly powered by Sydney</p>
+    </div>
+  </footer>
+
+<a href="https://wa.me/+447827169178" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+
+
+ <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const topnav = document.querySelector('.topnav');
+
+    if (menuToggle && topnav) {
+      menuToggle.addEventListener('click', function() {
+        menuToggle.classList.toggle('active');
+        topnav.classList.toggle('active');
+      });
+
+      topnav.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', function() {
+          if (topnav.classList.contains('active')) {
+            menuToggle.classList.remove('active');
+            topnav.classList.remove('active');
+          }
+        });
+      });
+    }
+
+    const currentPath = window.location.pathname.split('/').pop(); 
+    const navLinks = document.querySelectorAll('.topnav a'); 
+
+    navLinks.forEach(link => {
+      const linkPath = link.getAttribute('href').split('/').pop();
+
+      if (linkPath === currentPath) {
+        link.classList.add('active-link');
+      } else if (currentPath === '' && linkPath === 'index.html') {
+        link.classList.add('active-link');
+      }
+    });
+
+  });
+</script>
+
+
+</body>
+</html>

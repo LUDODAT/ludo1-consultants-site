@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>FAQs | Ludo Consultants</title>
+  <meta name="description" content="Find answers to frequently asked questions about Ludo Consultants' services, industries we serve, and how to get started with our expert business and IT consulting." />
+  <meta name="keywords" content="FAQs, business consulting, IT consulting, Ludo Consultants, global services, digital transformation" />
+  <meta name="author" content="Ludo Consultants" />
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="FAQs | Ludo Consultants" />
+  <meta property="og:description" content="Have questions? Find answers about our consulting services, locations, industries we serve, and how we help you succeed." />
+  <meta property="og:image" content="https://ludoconsultants.com/assets/High-Resolution-Logo-White-on-Transparent-Background.png" />
+  <meta property="og:url" content="https://ludoconsultants.com/faqs.html" />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" type="image/png" href="assets/Website-Favicon-White.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Header -->
+   <header>
+  <nav class="nav-container">
+    <div class="logo">
+      <a href="index.html">
+        <img src="assets/High-Resolution-Logo-White-on-Transparent-Background.png" alt="Ludo Consultants Logo" />
+      </a>
+    </div>
+    <div class="menu-toggle" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="topnav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li>
+          <a href="services.html" class="dropbtn">Services <i class="fas fa-caret-down"></i></a>
+          <div class="dropdown-content">
+            <a href="business-startup.html">Business Startup</a>
+            <a href="small-business.html">Small Business</a>
+            <a href="marketing-services.html">Marketing Services</a>
+            <a href="digital-business.html">Digital Business</a>
+            <a href="international-business.html">International Business</a>
+            <a href="us-market.html">US Market</a>
+          </div>
+        </li>
+      <li><a href="solutions.html">Solutions</a></li>
+      <li><a href="global-opportunities.html">Global Opportunities</a></li>
+      <li><a href="who-we-serve.html">Who We Serve</a></li>
+      <li><a href="our-mission.html">Our Mission</a></li>
+      <li><a href="what-we-do.html">What We Do</a></li>
+      <li><a href="faqs.html">FAQs</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="get-started.html" class="btn-primary">Get Started</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-overlay">
+      <div class="hero-content" data-aos="fade-up">
+        <h1>Frequently Asked Questions</h1>
+        <p>Everything you need to know about working with Ludo Consultants.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Content -->
+  <section class="faq-section">
+    <h2 class="centered-section" data-aos="fade-up">Common Questions</h2>
+
+    <div class="faq-box" data-aos="fade-up">
+      <h3><i class="fas fa-briefcase"></i> What types of businesses do you work with?</h3>
+      <p>We work with startups, SMEs, large corporations, nonprofits, and public-sector institutions across the globe.</p>
+    </div>
+
+    <div class="faq-box" data-aos="fade-up">
+      <h3><i class="fas fa-cogs"></i> Do you offer customized consulting solutions?</h3>
+      <p>Yes — all our services are tailored to your organization’s goals, market, and challenges.</p>
+    </div>
+
+    <div class="faq-box" data-aos="fade-up">
+      <h3><i class="fas fa-phone"></i> How do we get started with your services?</h3>
+      <p>Use the <a href="get-started.html">Get Started</a> page to submit your details, and we’ll schedule a call to explore your needs.</p>
+    </div>
+
+    <div class="faq-box" data-aos="fade-up">
+      <h3><i class="fas fa-map-marker-alt"></i> Where are you located?</h3>
+      <p>We’re headquartered in the U.S., with partners and clients across North America, Europe, Africa, and the Middle East.</p>
+    </div>
+
+    <div class="faq-box" data-aos="fade-up">
+      <h3><i class="fas fa-sync-alt"></i> Can you help with digital transformation?</h3>
+      <p>Absolutely — digital transformation is one of our core offerings. We’ll guide your team through strategy, implementation, and optimization.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Ludo Consultants. All rights reserved.</p>
+    </div>
+  </footer>
+
+ <a href="https://wa.me/+447827169178" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+  <!-- AOS Animation -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+
+  <!-- Nav Toggle -->
+ <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const topnav = document.querySelector('.topnav');
+
+    if (menuToggle && topnav) {
+      menuToggle.addEventListener('click', function() {
+        menuToggle.classList.toggle('active');
+        topnav.classList.toggle('active');
+      });
+
+      topnav.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', function() {
+          if (topnav.classList.contains('active')) {
+            menuToggle.classList.remove('active');
+            topnav.classList.remove('active');
+          }
+        });
+      });
+    }
+
+    const currentPath = window.location.pathname.split('/').pop(); 
+    const navLinks = document.querySelectorAll('.topnav a'); 
+
+    navLinks.forEach(link => {
+      const linkPath = link.getAttribute('href').split('/').pop();
+
+      if (linkPath === currentPath) {
+        link.classList.add('active-link');
+      } else if (currentPath === '' && linkPath === 'index.html') {
+        link.classList.add('active-link');
+      }
+    });
+
+  });
+</script>
+
+
+</body>
+</html>
